@@ -924,8 +924,7 @@ require('lazy').setup({
         styles = {
           comments = { italic = false }, -- Disable italics in comments
         },
-        
-        vim.cmd.colorscheme 'moonfly'
+        vim.cmd.colorscheme 'tokyonight-night',
       }
     end,
   },
