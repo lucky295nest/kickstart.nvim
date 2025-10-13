@@ -1,11 +1,7 @@
----
-
 # 🪄 My Neovim Setup
 
 > My personal Neovim config — forked from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) 💫
 > Simple, fast, and easy to tweak!
-
----
 
 ## ⚡ Installation
 
