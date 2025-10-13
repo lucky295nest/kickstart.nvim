@@ -8,8 +8,7 @@
 ### 🐧 Linux / macOS
 
 ```bash
-git clone https://github.com/<your_username>/kickstart.nvim.git \
-  "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 ### 🪟 Windows
