@@ -924,9 +924,15 @@ require('lazy').setup({
         styles = {
           comments = { italic = false }, -- Disable italics in comments
         },
-        vim.cmd.colorscheme 'tokyonight-night',
+        vim.cmd.colorscheme 'solarized-osaka',
       }
     end,
+  },
+
+  {
+    'craftzdog/solarized-osaka.nvim',
+    lazy = false,
+    priority = 1000,
   },
 
   -- Highlight todo, notes, etc in comments
