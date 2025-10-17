@@ -1,0 +1,49 @@
+{
+  "languageserver": {
+    "c_cpp": {
+      "command": "clangd",
+      "rootPatterns": ["compile_commands.json", ".git/"],
+      "filetypes": ["c", "cpp", "objc", "objcpp"],
+      "initializationOptions": {
+        "clangdFileStatus": true
+      },
+      "args": [
+        "--header-insertion=never",
+        "--clang-tidy",
+        "--completion-style=detailed"
+      ]
+    },
+    "python": {
+      "command": "pyright-langserver",
+      "args": ["--stdio"],
+      "filetypes": ["python"],
+      "settings": {
+        "python": {
+          "analysis": {
+            "autoSearchPaths": true,
+            "diagnosticMode": "workspace",
+            "useLibraryCodeForTypes": true
+          }
+        }
+      }
+    },
+    "html": {
+      "command": "vscode-html-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["html"],
+      "initializationOptions": {
+        "embeddedLanguages": { "css": true, "javascript": true }
+      }
+    },
+    "css": {
+      "command": "vscode-css-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["css", "scss", "less"]
+    },
+    "ts_js": {
+      "command": "vscode-json-languageserver",
+      "args": ["--stdio"],
+      "filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+    }
+  }
+}

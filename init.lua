@@ -1050,7 +1050,10 @@ require('lazy').setup({
   require 'kickstart.plugins.autopairs',
   require 'kickstart.plugins.neo-tree',
   require 'custom.plugins.noice',
-  -- require 'custom.plugins.coc', -- requires npm
+  require 'custom.plugins.coc', -- requires npm
+  -- for js and ts support also requires [npm i -g typescript-language-server typescript]
+  -- for C support clangd is needed [install clangd]
+
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
