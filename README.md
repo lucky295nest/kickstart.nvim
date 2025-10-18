@@ -41,3 +41,4 @@ Use `:Lazy` to check plugin status.
 * `git`, `make`, `gcc`, `unzip`
 * [`ripgrep`](https://github.com/BurntSushi/ripgrep), [`fd`](https://github.com/sharkdp/fd)
 * A [Nerd Font](https://www.nerdfonts.com/) (optional but 🔥)
+* `npm`, `node.js` (required for coc.nvim to work)
