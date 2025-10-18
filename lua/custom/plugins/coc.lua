@@ -17,5 +17,10 @@ return {
     vim.api.nvim_set_keymap('n', 'gy', '<Plug>(coc-type-definition)', {})
     vim.api.nvim_set_keymap('n', 'gi', '<Plug>(coc-implementation)', {})
     vim.api.nvim_set_keymap('n', 'gr', '<Plug>(coc-references)', {})
+    vim.api.nvim_set_hl(0, 'CocInlayHint', {
+      fg = '#6b6b6b',
+      -- bg = '#1a1a1a',
+      italic = true,
+    })
   end,
 }
