@@ -943,11 +943,29 @@ require('lazy').setup({
         transparent = false,
         dimInactive = false,
         terminalColors = true,
+
+        overrides = function(colors)
+          local theme = colors.theme
+          return {
+            -- Main editor background is theme.ui.bg
+            NormalFloat = { bg = 'none' },
+            FloatBorder = { bg = 'none', fg = theme.ui.bg_m3 },
+            NoiceCmdlinePopupBorder = { bg = 'none', fg = colors.palette.springGreen },
+            NoiceCmdlineIcon = { bg = 'none', fg = colors.palette.springGreen },
+            NoiceCmdlineIconSearch = { bg = 'none', fg = colors.palette.waveRed },
+            NoiceCmdLinePopup = { bg = theme.ui.bg },
+            NoiceCmdline = { fg = theme.syn.comment },
+            noiceCmdlineSearch = { fg = theme.ui.bg },
+            NoiceCmdlinePopupSearch = { bg = theme.ui.bg },
+            NoiceCmdlinePopupBorderSearch = { bg = 'none', fg = colors.palette.waveRed },
+          }
+        end,
+
         colors = { palette = {}, theme = { wave = {}, lotus = {}, dragon = {}, all = {} } },
       }
 
       -- Your preferred colorscheme, applied last
-      vim.cmd.colorscheme 'solarized-osaka'
+      vim.cmd.colorscheme 'kanagawa-dragon'
     end,
   },
 
