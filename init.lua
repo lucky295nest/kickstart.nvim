@@ -958,6 +958,13 @@ require('lazy').setup({
             noiceCmdlineSearch = { fg = theme.ui.bg },
             NoiceCmdlinePopupSearch = { bg = theme.ui.bg },
             NoiceCmdlinePopupBorderSearch = { bg = 'none', fg = colors.palette.waveRed },
+            NoiceConfirm = { bg = theme.ui.bg },
+            NoiceConfirmBorder = { bg = 'none', fg = colors.palette.crystalBlue },
+            NoiceFormatConfirm = { fg = theme.ui.fg_m3, bg = theme.ui.bg },
+            NoiceFormatConfirmDefault = { fg = theme.ui.fg_m3, bg = theme.ui.bg_p1 },
+            NoicePrompt = { bg = theme.ui.bg },
+            NoicePromptBorder = { bg = 'none', fg = colors.palette.crystalBlue },
+            NoicePromptButtonSelected = { bg = theme.ui.bg_p1, fg = theme.ui.fg },
           }
         end,
 
