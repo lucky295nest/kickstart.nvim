@@ -1,7 +1,7 @@
 # 🪄 My Neovim Setup
 
 > My personal Neovim config — forked from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) 💫
-> Simple, fast, and easy to tweak, using **Lazy.nvim** for plugin management and **Neovim's built-in LSP** (with supplementary **coc.nvim** config for languages like C)!
+> Simple, fast, and easy to tweak, using **Lazy.nvim** for plugin management and **Neovim's built-in LSP** (with supplementary **coc.nvim** config)!
 
 ***
 
@@ -10,7 +10,7 @@
 ### 🐧 Linux / macOS
 
 ```bash
-git clone [https://github.com/lucky295nest/kickstart.nvim.git](https://github.com/lucky295nest/kickstart.nvim.git) "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/lucky295nest/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ````
 
 ### 🪟 Windows
@@ -18,13 +18,13 @@ git clone [https://github.com/lucky295nest/kickstart.nvim.git](https://github.co
 **PowerShell**
 
 ```powershell
-git clone [https://github.com/lucky295nest/kickstart.nvim.git](https://github.com/lucky295nest/kickstart.nvim.git) "$env:LOCALAPPDATA\nvim"
+git clone https://github.com/lucky295nest/kickstart.nvim.git "$env:LOCALAPPDATA\nvim"
 ```
 
 **CMD**
 
 ```cmd
-git clone [https://github.com/lucky295nest/kickstart.nvim.git](https://github.com/lucky295nest/kickstart.nvim.git) %localappdata%\nvim
+git clone https://github.com/lucky295nest/kickstart.nvim.git %localappdata%\nvim
 ```
 
 Then just open Neovim 🎉
